@@ -61,7 +61,7 @@ class Login extends React.Component {
             <Grid textAlign="center" verticalAlign="middle" className="app">
                 <Grid.Column style={{ maxWidth: 450 }}>
                     <Header as="h1" icon color="pink" textAlign="center">
-                        <Icon name="moon outline" color="pink" />
+                        <Icon name="moon" color="pink" />
             Login to Classroom Chatter
           </Header>
                     <Form onSubmit={this.handleSubmit} size="large">

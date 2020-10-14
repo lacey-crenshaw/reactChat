@@ -131,8 +131,8 @@ class Register extends React.Component {
         return (
             <Grid textAlign="center" verticalAlign="middle" className="app">
                 <Grid.Column style={{ maxWidth: 450 }}>
-                    <Header as="h2" icon color="pink" textAlign="center">
-                        <Icon name="moon" color="pink" />
+                    <Header as="h1" icon color="pink" textAlign="center">
+                        <Icon name="moon outline" color="pink" />
             Register for Classroom Chatter
           </Header>
                     <Form onSubmit={this.handleSubmit} size="large">
